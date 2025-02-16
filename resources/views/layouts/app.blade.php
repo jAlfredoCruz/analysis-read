@@ -19,6 +19,8 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+        <link href="{{ asset('build/assets/app-Bf6vkT_m.css')}} ">
+        <script src="{{ asset('build/assets/app-I5i9CKeh.js') }}"></script>
 
         <!-- Styles -->
          <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" type="text/css">
