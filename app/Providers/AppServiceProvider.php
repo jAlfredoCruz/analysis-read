@@ -38,6 +38,7 @@ use App\Repository\SentenceRepository;
 use App\Interfaces\Services\ISentenceService;
 use App\Service\SentenceService;
 use App\Interfaces\Repositories\IArgumentRepository;
+use Illuminate\Support\Facades\URL;
 use App\Repository\ArgumentRepository;
 use App\Interfaces\Services\IArgumentService;
 use App\Service\ArgumentService;
@@ -179,6 +180,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        if ($this->app->environment('production')) {
+            URL::forceScheme('https');
+        }
     }
 }
