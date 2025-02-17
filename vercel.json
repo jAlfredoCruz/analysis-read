@@ -8,7 +8,7 @@
         "dest": "/api/index.php"
     }],
     "env": {
-        "APP_ENV": "production",
+        "APP_ENV": "local",
         "APP_DEBUG": "true",
         "APP_URL": "https://laurldetuproyecto.com",
         "APP_CONFIG_CACHE": "/tmp/config.php",
