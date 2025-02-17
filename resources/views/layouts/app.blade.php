@@ -19,7 +19,12 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-
+           <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+            <style type="text/tailwindcss">
+            @theme {
+                --color-clifford: #da373d;
+            }
+            </style>
 
         <!-- Styles -->
          <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" type="text/css">

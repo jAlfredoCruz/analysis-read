@@ -20,7 +20,13 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <style type="text/tailwindcss">
+          @theme {
+            --color-clifford: #da373d;
+          }
+        </style>
+        
         <!-- Styles -->
         @livewireStyles
         @bukStyles
