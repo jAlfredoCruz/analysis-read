@@ -51,9 +51,4 @@
         </main>
 
     </body>
-    <!--
-        name: Test2
-        email: test2@email.com
-        password: 12345678
-    -->
 </html>
