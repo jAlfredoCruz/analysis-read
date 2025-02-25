@@ -8,7 +8,7 @@
         "php": "^8.2",
         "baethon/laravel-criteria": "^1.1",
         "blade-ui-kit/blade-ui-kit": "^0.6.4",
-        "laravel/framework": "^11.9",
+        "laravel/framework": "^11.44.0",
         "laravel/jetstream": "^5.1",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
